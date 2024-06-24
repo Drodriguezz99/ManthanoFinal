@@ -1,0 +1,132 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .carousel-item img {
+    border-radius: 8px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 9999px;
+    transition: background-color 0.2s, border-color 0.2s;
+    background-color: rgb(92, 122, 148);
+  }
+  
+  button:hover {
+    background-color: #7f89aa;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem;
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Altura aumentada do banner */
+    overflow: hidden;
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+
+  .banner-text {
+    text-align: center;
+    color: white; /* Cor do texto */
+    padding: 20px;
+    max-width: 80%;
+  }
+
+  .banner-text h2 {
+    font-size: 3rem; /* Aumenta o tamanho do título */
+    margin-bottom: 10px;
+  }
+
+  .banner-text p {
+    font-size: 1.4rem; /* Aumenta o tamanho do texto */
+    line-height: 1.6;
+  }
+
+  

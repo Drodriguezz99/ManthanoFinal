@@ -1,0 +1,51 @@
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 9999px; /* Botões com borda bem arredondada */
+  transition: background-color 0.2s, border-color 0.2s;
+  margin-bottom: 10px; /* Espaçamento entre os botões */
+  color: #fff; /* Texto branco */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Azul padrão */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Azul mais escuro no hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Cinza */
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268; /* Cinza mais escuro no hover */
+}
+
+.btn-info {
+  background-color: #17a2b8; /* Azul claro */
+}
+
+.btn-info:hover {
+  background-color: #117a8b; /* Azul claro mais escuro no hover */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Vermelho */
+}
+
+.btn-danger:hover {
+  background-color: #bd2130; /* Vermelho mais escuro no hover */
+}
+
+.card-text {
+  color: #fff; /* Texto branco */
+}
